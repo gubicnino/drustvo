@@ -1,26 +1,87 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/*
+  Planinsko društvo Goričko – Tromeja
+  Design system: Organic / nature-distilled. Deep pine green + warm cream,
+  sunrise-amber accent. Serif headings (Lora) + clean sans body (Inter).
+*/
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-lora), ui-serif, Georgia, serif;
+
+  /* Surfaces */
+  --color-cream: #faf8f3;
+  --color-sand: #f1ece1;
+  --color-surface: #ffffff;
+  --color-border: #e7e1d3;
+
+  /* Text */
+  --color-ink: #1b2a22;
+  --color-muted: #54635a;
+
+  /* Brand — pine green */
+  --color-pine: #15803d;
+  --color-pine-dark: #14532d;
+  --color-pine-700: #166534;
+  --color-pine-50: #ecf6ef;
+  --color-pine-100: #dcfce7;
+
+  /* Accent — sunrise amber */
+  --color-amber: #f59e0b;
+  --color-amber-dark: #b45309;
+
+  /* Difficulty */
+  --color-easy-bg: #dcfce7;
+  --color-easy-fg: #166534;
+  --color-medium-bg: #fef3c7;
+  --color-medium-fg: #92400e;
+  --color-hard-bg: #fee2e2;
+  --color-hard-fg: #991b1b;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    line-height: 1.65;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-serif);
+    line-height: 1.12;
+    letter-spacing: -0.01em;
+    color: var(--color-pine-dark);
+  }
+
+  /* Visible, branded focus ring for keyboard users */
+  :focus-visible {
+    outline: 2px solid var(--color-pine);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  ::selection {
+    background-color: var(--color-pine-100);
+    color: var(--color-pine-dark);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

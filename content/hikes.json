@@ -1,0 +1,110 @@
+{
+  "hikes": [
+    {
+      "id": "0b3c1a90-1111-4a01-9a01-000000000004",
+      "slug": "ppp-lenart-trije-kralji",
+      "title": "Pomurska planinska pot: Lenart – Trije Kralji",
+      "date": "2026-05-16",
+      "location": "Lenart – Sveta Trojica – Trije Kralji, Slovenske gorice",
+      "difficulty": "hard",
+      "distance": "21 km",
+      "elevation": "500 m",
+      "description": "Izkoristili smo prekrasno vreme in nadaljevali Pomursko planinsko pot od Lenarta naprej – čez Zavrh in Sveto Trojico vse do Treh Kraljev v Slovenskih goricah. Zbrala se je lepa skupina desetih pohodnikov, ki je brez težav premagala dobrih 21 kilometrov poti po valovitem gričevju, vinogradih in gozdnih stezah. Tudi najmlajši pohodnik, star komaj sedem let, je pokazal, kaj zmore. Čestitke vsem udeležencem – jeseni nadaljujemo naprej!",
+      "image": "/uploads/ppp-1.jpg",
+      "images": [
+        "/uploads/ppp-1.jpg",
+        "/uploads/ppp-2.jpg",
+        "/uploads/ppp-3.jpg"
+      ],
+      "published": true,
+      "createdAt": "2026-05-17T09:00:00.000Z",
+      "updatedAt": "2026-05-17T09:00:00.000Z"
+    },
+    {
+      "id": "0b3c1a90-1111-4a01-9a01-000000000003",
+      "slug": "lepenatka-rogatec-menina",
+      "title": "Rogatec in Lepenatka na Menini planini",
+      "date": "2026-04-06",
+      "location": "Menina planina, Kamniško-Savinjske Alpe",
+      "difficulty": "medium",
+      "distance": "14 km",
+      "elevation": "700 m",
+      "description": "Velikonočni ponedeljek smo planinci PD Goričko Tromeja izkoristili za potep po prekrasnem sredogorju Menine planine. Pot nas je vodila čez razgledno Lepenatko (1426 m) do vrha Rogatec, najvišje točke Menine. Prijetno družbo je grelo spomladansko sonce, ob širnih razgledih na Kamniško-Savinjske Alpe in Savinjsko dolino pa je dan minil veliko prehitro.",
+      "image": "/uploads/lepenatka-1.jpg",
+      "images": [
+        "/uploads/lepenatka-1.jpg",
+        "/uploads/lepenatka-2.jpg",
+        "/uploads/lepenatka-3.jpg",
+        "/uploads/lepenatka-4.jpg"
+      ],
+      "published": true,
+      "createdAt": "2026-04-07T09:00:00.000Z",
+      "updatedAt": "2026-04-07T09:00:00.000Z"
+    },
+    {
+      "id": "0b3c1a90-1111-4a01-9a01-000000000002",
+      "slug": "pohod-na-goro-oljko",
+      "title": "Pohod na goro Oljko",
+      "date": "2026-03-21",
+      "location": "Gora Oljka, Polzela",
+      "difficulty": "easy",
+      "distance": "8 km",
+      "elevation": "400 m",
+      "description": "Planinci PD Goričko Tromeja smo se podali na goro Oljko (733 m) nad Polzelo. Zbrala se je zelo pisana druščina – vse od sedemletnika do petinsedemdesetletnika – kar najlepše priča, da so naši pohodi namenjeni prav vsem generacijam. Ob prijetni družbi in toplem soncu smo se povzpeli mimo znamenite cerkve sv. Krištofa do vrha ter uživali v razgledu na Savinjsko dolino. Čudovito preživet dan v naravi.",
+      "image": "/uploads/oljka-1.jpg",
+      "images": [
+        "/uploads/oljka-1.jpg",
+        "/uploads/oljka-2.jpg",
+        "/uploads/oljka-3.jpg",
+        "/uploads/oljka-4.jpg",
+        "/uploads/oljka-5.jpg"
+      ],
+      "published": true,
+      "createdAt": "2026-03-22T09:00:00.000Z",
+      "updatedAt": "2026-03-22T09:00:00.000Z"
+    },
+    {
+      "id": "0b3c1a90-1111-4a01-9a01-000000000001",
+      "slug": "pohod-na-donacko-goro",
+      "title": "Donačka gora – prvi pohod sezone",
+      "date": "2026-01-24",
+      "location": "Donačka gora, Haloze",
+      "difficulty": "easy",
+      "distance": "8 km",
+      "elevation": "500 m",
+      "description": "V soboto, 24. januarja, smo opravili prvi pohod v novem letu. Odpravili smo se na markantno Donačko goro (884 m), enega najlepših razglednikov ob meji med Halozami in Štajersko. Ujeli smo čudovito sončno vreme brez megle, le na nekaterih odsekih je bilo zaradi zmrznjene podlage treba stopati previdno. Pot je sicer nezahtevna, vzpon skozi gozd pa nas je nagradil z razgledom na Boč in obronke Haloz. Imeli smo se odlično – lep začetek nove planinske sezone.",
+      "image": "/uploads/donacka-1.jpg",
+      "images": [
+        "/uploads/donacka-1.jpg",
+        "/uploads/donacka-2.jpg",
+        "/uploads/donacka-3.jpg"
+      ],
+      "published": true,
+      "createdAt": "2026-01-25T09:00:00.000Z",
+      "updatedAt": "2026-01-25T09:00:00.000Z"
+    },
+    {
+      "id": "0b3c1a90-1111-4a01-9a01-000000000005",
+      "slug": "drustveno-srecanje-grmada",
+      "title": "Društveno srečanje na Grmadi",
+      "date": "2025-09-20",
+      "location": "Grmada nad Celjem",
+      "difficulty": "easy",
+      "distance": "9 km",
+      "elevation": "450 m",
+      "description": "Vsakoletnega društvenega srečanja PD Grmada Celje smo se z veseljem udeležili tudi člani PD Goričko Tromeja. Prijateljsko društvo nas je lepo sprejelo in pogostilo, za kar se jim iskreno zahvaljujemo. Preživeli smo lep sončen planinski dan ob pohodu na Grmado nad Celjem in prijetnem druženju. Pridružila sta se nam tudi dva nova mlada pohodnika, ki sta brez težav prehodila svojo prvo pravo planinsko turo – čeprav prihajata z ravninskega dela Prekmurja. Hvala vsem udeležencem za nepozabno druženje.",
+      "image": "/uploads/grmada-1.jpg",
+      "images": [
+        "/uploads/grmada-1.jpg",
+        "/uploads/grmada-2.jpg",
+        "/uploads/grmada-3.jpg",
+        "/uploads/grmada-4.jpg",
+        "/uploads/grmada-5.jpg",
+        "/uploads/grmada-6.jpg"
+      ],
+      "published": true,
+      "createdAt": "2025-09-21T09:00:00.000Z",
+      "updatedAt": "2025-09-21T09:00:00.000Z"
+    }
+  ]
+}
