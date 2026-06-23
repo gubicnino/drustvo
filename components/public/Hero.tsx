@@ -1,7 +1,7 @@
-import { Container } from "@/components/ui/Container";
+import { ArrowRight, CalendarDays, Mountain, Users } from "@/components/icons";
 import { Button } from "@/components/ui/Button";
+import { Container } from "@/components/ui/Container";
 import { Placeholder } from "@/components/ui/Placeholder";
-import { ArrowRight, Users, CalendarDays, Mountain } from "@/components/icons";
 import { society } from "@/lib/society";
 
 export function Hero() {
@@ -28,7 +28,7 @@ export function Hero() {
           </span>
 
           <h1 className="mt-6 text-balance font-serif text-4xl font-semibold leading-[1.08] text-pine-dark sm:text-5xl lg:text-6xl">
-            Skupaj odkrivamo lepote Goričkega in Tromeje
+            Skupaj odkrivamo lepote gora in narave.
           </h1>
 
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-ink/80">

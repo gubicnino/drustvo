@@ -80,7 +80,7 @@ export default function HomePage() {
           <div>
             <SectionHeading
               eyebrow="O društvu"
-              title="Več kot 60 let v objemu gora"
+              title="Več kot 20 let v objemu gora"
               description={society.about}
             />
             <div className="mt-8 grid gap-4 sm:grid-cols-3">
