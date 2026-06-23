@@ -105,6 +105,22 @@
       "published": true,
       "createdAt": "2025-09-21T09:00:00.000Z",
       "updatedAt": "2025-09-21T09:00:00.000Z"
+    },
+    {
+      "id": "0e9cdd02-ac13-47dd-8e75-79e746439ab6",
+      "slug": "asdf",
+      "title": "asdf",
+      "date": "2026-07-11",
+      "location": "rweqrqwer",
+      "difficulty": "medium",
+      "distance": "43 km",
+      "elevation": "422 m",
+      "description": "sdafasdaaaaaaaaaaaaaaaaafsd",
+      "image": "",
+      "images": [],
+      "published": true,
+      "createdAt": "2026-06-23T09:18:15.885Z",
+      "updatedAt": "2026-06-23T09:18:15.885Z"
     }
   ]
 }
