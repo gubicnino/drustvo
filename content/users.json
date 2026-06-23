@@ -1,9 +1,9 @@
 {
   "users": [
     {
-      "id": "e31cb729-ade9-4166-9fa5-10a94ddd4e1c",
-      "username": "admin",
-      "passwordHash": "$2b$10$vBEzhUUC.1PW/2mWzK2f3OWVGTEd179ejvRBEbd6wGCk84tyWPNAi",
+      "id": "b221662b-b1b2-408a-9d5a-dafb47f5d138",
+      "username": "urejevalec",
+      "passwordHash": "$2b$10$8AiKVC4bCL/nSMT3/ZydE.Fq/SCcJZ9r5wJTE4nRxPQhwnslR3pGW",
       "role": "admin"
     }
   ]
