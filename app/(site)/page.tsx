@@ -6,14 +6,12 @@ import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
 import { HikeImage } from "@/components/ui/Placeholder";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { getHikes, getPastHikes, getUpcomingHikes } from "@/lib/hikes";
+import { getHikes, getPastHikes } from "@/lib/hikes";
 import { society } from "@/lib/society";
 import Link from "next/link";
 
 export default function HomePage() {
-  const upcomingAll = getUpcomingHikes();
-  const hasUpcoming = upcomingAll.length > 0;
-  const featuredHikes = (hasUpcoming ? upcomingAll : getPastHikes()).slice(0, 3);
+  const featuredHikes = getPastHikes().slice(0, 3);
   const galleryItems = getHikes()
     .flatMap((h) => h.images.map((src, i) => ({ seed: `${h.slug}-${i}`, src, title: h.title })))
     .slice(0, 8);
@@ -45,16 +43,12 @@ export default function HomePage() {
         <Container>
           <div className="flex flex-wrap items-end justify-between gap-4">
             <SectionHeading
-              eyebrow={hasUpcoming ? "Prihajajoči pohodi" : "Zadnji pohodi"}
-              title={hasUpcoming ? "Pridi z nami v hribe" : "Kje vse smo že bili"}
-              description={
-                hasUpcoming
-                  ? "Spodaj so naši naslednji pohodi. Pridruži se nam – dobrodošli so člani in vsi ljubitelji narave."
-                  : "Utrinki z naših zadnjih pohodov. Spremljaj nas za nove termine in se nam pridruži."
-              }
+              eyebrow="Zadnji pohodi"
+              title="Kje vse smo že bili"
+              description="Utrinki z naših zadnjih pohodov. Spremljaj nas za nove termine in se nam pridruži."
             />
             <Button href="/pohodi" variant="outline">
-              Vsi pohodi
+              Prihodnji pohodi
               <ArrowRight className="h-4 w-4" />
             </Button>
           </div>

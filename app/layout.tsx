@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Inter, Lora } from "next/font/google";
+import { Nunito_Sans, Lora } from "next/font/google";
 import "./globals.css";
 import { society } from "@/lib/society";
 
-const inter = Inter({
-  variable: "--font-inter",
+const nunitoSans = Nunito_Sans({
+  variable: "--font-nunito",
   subsets: ["latin", "latin-ext"],
   display: "swap",
 });
@@ -54,7 +54,7 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="sl" className={`${inter.variable} ${lora.variable} h-full`}>
+    <html lang="sl" className={`${nunitoSans.variable} ${lora.variable} h-full`}>
       <body className="flex min-h-full flex-col">{children}</body>
     </html>
   );
