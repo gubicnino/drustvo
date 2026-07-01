@@ -1,0 +1,28 @@
+<?php
+/**
+ * Kopiraj v app/config.local.php in vpiši svoje podatke (NI v gitu).
+ */
+
+return [
+    // --- Baza ---
+    'DB_HOST'   => 'localhost',
+    'DB_PORT'   => '3306',
+    'DB_NAME'   => 'cpaneluser_drustvo',
+    'DB_USER'   => 'cpaneluser_drustvo',
+    'DB_PASS'   => 'GESLO_BAZE',
+
+    // --- Avtentikacija (OBVEZNO spremeni na dolg naključni niz!) ---
+    'JWT_SECRET' => 'tukaj-vstavi-vsaj-32-znakov-nakljucnega-niza',
+
+    // --- CORS: izvor(i) SPA frontenda. Če je SPA na ISTI domeni kot API, lahko pustiš prazno. ---
+    // Primer (ločeno SPA na drugi domeni): 'https://www.pd-goricko-tromeja.si'
+    'CORS_ORIGINS' => 'https://www.pd-goricko-tromeja.si',
+
+    // --- Slike: kam API shranjuje in pod katerim URL-jem so dostopne ---
+    // Na cPanelu (API v public_html/api): slike naj bodo v public_html/uploads (deljeno s SPA).
+    'UPLOAD_DIR' => '/home/CPANELUSER/public_html/uploads',
+    'UPLOAD_URL' => '/uploads',
+
+    'SITE_URL'  => 'https://www.pd-goricko-tromeja.si',
+    'APP_DEBUG' => '0',
+];

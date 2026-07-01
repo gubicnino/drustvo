@@ -1,0 +1,5 @@
+# V mapi z naloženimi slikami ne dovoli izvajanja skript.
+<FilesMatch "\.(php|phtml|php3|php4|php5|php7|php8|pl|py|cgi|sh|asp|aspx)$">
+  Require all denied
+</FilesMatch>
+php_flag engine off

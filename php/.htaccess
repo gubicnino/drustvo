@@ -1,0 +1,17 @@
+# API usmerjanje (mapa public_html/api)
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Prepusti Authorization glavo do PHP (nekateri Apache jo sicer odrežejo).
+  RewriteCond %{HTTP:Authorization} .
+  RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+  # Vse neobstoječe poti na index.php
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^ index.php [QSA,L]
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+</IfModule>

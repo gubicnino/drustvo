@@ -1,0 +1,12 @@
+# Lokalne skrivnosti
+app/config.local.php
+
+# Naložene slike (po želji jih lahko VKLJUČIŠ v git, če želiš vse v repozitoriju)
+# uploads/*
+# !uploads/.gitkeep
+# !uploads/.htaccess
+
+# Sistemsko
+.DS_Store
+Thumbs.db
+*.log
